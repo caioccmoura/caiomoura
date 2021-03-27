@@ -1,0 +1,50 @@
+Mesh_quad_dis INPUT
+Developed by Caio Moura
+UNICAMP, 2021
+-------------------------------------------------------------------------------
+Number of total edges:
+4
+-------------------------------------------------------------------------------
+Number of edges with temperature boundary condition:
+2
+-------------------------------------------------------------------------------
+Number of edges with heat flux boundary condition:
+2
+-------------------------------------------------------------------------------
+Geometry vertices coordinates (don't use 0 to identify a vertice):
+[number of vertices,x,y] !The origin must be located at (0,0)
+1  0  0
+2  1  0 
+3  1  1 
+4  0  1
+-------------------------------------------------------------------------------
+Geometry edges coordinates (don't use 0 to identify an edge):
+[edge number, initial vertice, final vertice]
+1  1  2 
+2  2  3 
+3  3  4 
+4  4  1 
+-------------------------------------------------------------------------------
+Mesh refinement:
+[edge, number of elements on the edge]
+1  40
+2  40 
+3  40 
+4  40 
+-------------------------------------------------------------------------------
+Edges temperatures:
+[number of edge, temperature]
+2  1
+4  0
+-------------------------------------------------------------------------------
+Edges heat flux:
+[number of edge, heat flux]
+1  0
+3  0
+-------------------------------------------------------------------------------
+'K' - Coefficient of thermal conductivity:
+1
+-------------------------------------------------------------------------------
+Internal points:
+[X steps, Y steps]
+8  8
